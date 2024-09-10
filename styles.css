@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    background-color: #001f3f; /* Dark blue background */
+    color: white;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.85); /* Darker semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    text-align: center;
+    color: #f1c40f; /* Bright yellow for heading contrast */
+    margin-bottom: 20px;
+}
+
+.form-container,
+.resume-container {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px; /* Increased font size for better readability */
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px; /* Increased min-height for more content display */
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #003d7a;
+    transform: scale(1);
+}
+
+.resume-content {
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6; /* Improved line height for readability */
+}
+
+.resume-content h3 {
+    color: #007bff;
+    margin-top: 10px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.resume-content p {
+    margin: 5px 0;
+}
+
+.resume-content .heading {
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+}
+
+.education-entry {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
